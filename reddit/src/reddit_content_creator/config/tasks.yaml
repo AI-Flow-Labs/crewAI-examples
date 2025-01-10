@@ -1,0 +1,29 @@
+monitor_trending_posts:
+  description: >
+    Research the subreddit {subreddit} and provide a summary of the top 10 posts.
+  expected_output: >
+    A detailed summary report highlighting the most trending
+    news and updates related to {subreddit}. This report should include
+    key insights and their potential implications, number of user impacted,
+    trending locations or global, and any other relevant information that could
+    be useful for content creation.
+
+create_content:
+  description: >
+    Based on the insights provided by the Content Curator,
+    create high-quality, engaging content about "{post_subject}" in the subreddit {subreddit}.
+    Produce content for this subreddit that match the insight provided of the top posts by the Content Curator.
+    Ensure the content clearly conveys the key findings and recommendations related to the posts.
+  expected_output: >
+    A high-quality content related to the subreddit {subreddit},
+    the content should be simmilar to the mindset of the subreddit.
+
+rewrite_content:
+  description: >
+    Review this content and rewrite it in a conversational, human voice, with friendly tone that isn't colloquial.
+    Use short sentences and simple words.
+    Remove academic language, transition phrases, and corporate jargon.
+    Make it sound like someone talking to a friend in simple terms.
+    Keep the key points but strip away any unnecessary words
+  expected_output: >
+    A high-quality content in markdown format (without using the code tag) that is easy to read and understand.
